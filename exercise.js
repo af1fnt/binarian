@@ -47,3 +47,4 @@ myLaptop.updatePassword("newPassword256");
 console.log("Decrypted new password:", myLaptop.getPassword());
 
 console.log("mencoba");
+console.log("mencoba afif branch");
