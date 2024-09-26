@@ -45,3 +45,5 @@ console.log(myLaptop.gaming());
 console.log("Decrypted password:", myLaptop.getPassword());
 myLaptop.updatePassword("newPassword256");
 console.log("Decrypted new password:", myLaptop.getPassword());
+
+console.log("mencoba");
