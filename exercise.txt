@@ -1,0 +1,54 @@
+1.inheritance.js
+
+  Buatlah Class Laptop dengan detail :
+  
+  properti
+  - brand
+  - type
+
+  method
+  - info() mengembalikan detail brand dan type.
+  - run() mengembalikan "{Brand} {type} is on!"
+
+  
+  Buatlah Class LaptopGaming(extend dari Human) dengan detail :
+
+  method
+  - info() mengembalikan detail brand dan type dan "\nAble to play games!"
+  - gaming() mengembalikan method run() dari class Laptop dan "\nRunning PUBG and Valorant!"!
+
+
+2.encapsulation.js
+  - Tambahkan properti password pada class Laptop
+  - tambahkan method encrypt(private) dan decrypt(privete) seperti contoh nomor 5
+  - tambahkan method updatePassword(password, ) yang mengakses method encrypt dan decrypt
+
+  ref : https://gitlab.com/binar-x-km_bejs-3/chapter-2/4-oop/example
+
+
+3.polymorphism.js
+  
+  1.Buat class Laptop dengan detail :
+  properti
+    - brand
+    - type
+
+  method
+  - run() return "{{ brand }} {{ type }} is on!"
+
+  2.Buat helper gamingCapability dengan detail :
+  - method gaming() return "Playing Apex Legend at 120fps!"
+
+  3.Buat helper editingCapability dengan detail :
+  - method editing() return "Edit and Render 8k projects!"
+
+  4.Buat class LaptopGaming dengan detail :
+  - method run() return super.run() dan gaming()
+
+  5.Buat class LaptopEditing dengan detail :
+  - method run() return super.run() dan editing()
+
+  6.Buat class LaptopHybrid dengan detail :
+  - method run() return super.run(), gaming() dan editing()
+
+  7.Buat object untuk masing2 class lalu console seperti contoh nomor 8.
