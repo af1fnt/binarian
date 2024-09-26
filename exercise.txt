@@ -1,3 +1,4 @@
+EXERCISE-----------
 1.inheritance.js
 
   Buatlah Class Laptop dengan detail :
